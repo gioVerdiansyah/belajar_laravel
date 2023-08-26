@@ -1,0 +1,10 @@
+/* ! Import file master */
+/* ? Dengan menggunakan file master ini maka vite tidak perlu memanggil semua file yang berkaitan */
+@import url('./style');
+
+body{
+    background: aliceblue;
+    margin-left: 0;
+}
+
+/* untuk minifier bisa langsung npm run build */

@@ -1,0 +1,10 @@
+folder ini di buat otomatis dari CLI dengan perintah:
+php artisan lang:add id
+
+Isi dari halaman ini sudah otomatis tertranslate karena tambahan library pihak ke 3
+Berikut adalah command yang digunakan untuk mendownload library auto translate jika kita membuat lang baru:
+
+composer require laravel-lang/publisher laravel-lang/lang laravel-lang/attributes --dev
+
+PERINGATAN
+Karena ini adalah library pihak ke 3 maka mungkin saja bisa terjadi error jika Laravel ada update terbaru!

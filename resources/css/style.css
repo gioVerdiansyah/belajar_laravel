@@ -1,0 +1,7 @@
+h1{
+    padding: 20px;
+    width: 100%;
+    background: lightgreen;
+    user-select: none;
+    cursor: pointer;
+}

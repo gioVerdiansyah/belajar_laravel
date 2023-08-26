@@ -1,0 +1,7 @@
+body{
+    background-color: aliceblue;
+}
+ol li p{
+    cursor: pointer;
+    margin: 0;
+}

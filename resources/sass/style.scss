@@ -1,0 +1,18 @@
+// Mengatur variabel
+
+    $background-body: aliceblue;
+    $warna-h1: grey;
+    $background-h1: lightgreen;
+
+    h1{
+        background-color: $background-h1;
+        text-align: left;
+        color: $warna-h1;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+
+    // untuk compiler scss bisa ketik npm add -D sass
+
+    @import "~bootstrap/scss/bootstrap";
+    @import "../css/style.css";
